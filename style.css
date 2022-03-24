@@ -68,12 +68,13 @@ border-color: rgb(2, 125, 182);
 color:rgb(122, 102, 102);
 transition: none;
 }
+
 .cookies{
 border: 5px solid
 position:fixed;
 bottom:0;
-width:100%
-background-color: :read-only 
+width: 100%
+background-color: rgb(58, 25, 5);
 display:flex;
 justify-content:space-betweeen;
 padding: 0 5px;
