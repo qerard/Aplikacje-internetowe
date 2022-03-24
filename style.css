@@ -2,11 +2,13 @@ body
 {
 background-color: rgb(49, 121, 216);
 margin: 0;
+font-family: 'Palette Mosaic', cursive;
 }
 
 body > header
 {
     border:5px solid red;
+
     text-align: center;
     background-color: bisque;
 }
