@@ -1,26 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POZYCJE</title>
 </head>
 <body>
-    <style>
-        body{height:200vh;}
-        div{
-            border:2px dashed red;
-        }
-        .static{
-            position:static;
-        }
-        .fixed{
-            position:fixed;
-        }
-    </style>
-    
-    <div class=""static">STATIC</div>
-    <div class=""fixed">FIXED</div>
+
+
+
+  <style>s
+    /* TO JEST PLIK CSS */
+    body{height:200vh;}
+    div{
+      border:2px dashed red;
+    }
+    .static{
+      position:static;
+    }
+    .fixed{
+      position:fixed;
+      bottom:0;
+      right:0;
+    }
+    .sticky{
+      position:sticky;
+      top:0;
+    }
+    .relative{
+      position:relative;
+      height:250px;
+    }
+    .absolute{
+      position:absolute;
+      top:0;
+      right:0;
+    }
+  </style>
+
+  <!-- TO JEST HTML -->
+  <div class="static">STATIC</div>
+  <div class="fixed">FIXED</div>
+  <div class="sticky">STICKY</div>
+
+  <div class="relative">
+    RELATIVE
+    <div class="absolute">ABSOLUTE 1</div>
+    <div class="absolute">ABSOLUTE 2</div>
+    <div class="absolute">ABSOLUTE 3</div>
+  </div>
+
+
+  <!-- BOX SIZING -->
+  <style>
+    .parent{
+      border:10px solid blue;
+      position:relative;
+      height:150px;
+    }
+    .child{
+      box-sizing:border-box;
+      border:10px solid red;
+      position: absolute;
+      width:100%;
+      height:100%;
+    }
+
+  </style>
+  <div class="parent">
+    <div class="child"></div>
+  </div>
+
+
 </body>
 </html>
