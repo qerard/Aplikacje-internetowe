@@ -69,7 +69,12 @@ color:rgb(122, 102, 102);
 transition: none;
 }
 .cookies{
-border:2px dashed
+border: 5px solid
 position:fixed;
 bottom:0;
+width:100%
+background-color: :read-only 
+display:flex;
+justify-content:space-betweeen;
+padding: 0 5px;
 }
