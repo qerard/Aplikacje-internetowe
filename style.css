@@ -67,7 +67,7 @@ transition: 2s;
 
 nav ul li:active
 {
-background-color: rgb(58, 25, 5);
+background-color: rgb(59, 35, 20);
 border-color: rgb(2, 125, 182);
 color:rgb(122, 102, 102);
 transition: none;
