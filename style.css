@@ -68,3 +68,8 @@ border-color: rgb(2, 125, 182);
 color:rgb(122, 102, 102);
 transition: none;
 }
+.cookies{
+border:2px dashed
+position:fixed;
+bottom:0;
+}
