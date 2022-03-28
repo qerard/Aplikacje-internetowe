@@ -4,16 +4,23 @@ background-color: rgb(135, 147, 202);
 margin: 0;
 font-family: 'Playfair Display', serif;}
 
+
 *{
     box-sizing: border-box;
 }
 
 body > header
 {
-    border:5px solid rgba(86, 76, 219, 0.699);
+    border:10px solid rgba(80, 107, 180, 0.699);
 
     text-align: center;
     background-color: rgba(135, 147, 202, 0.699);
+    border-style: ridge;
+    background-image: url("obraz.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
 }
 
 h1
@@ -31,13 +38,15 @@ nav ul
     border-top: none;
     margin: 0;
     background-color: rgb(135, 147, 202);
-    border: 10px solid rgba(85, 76, 219, 0.699);
+    border: 10px solid rgba(26, 50, 115, 0.699);
     list-style-type:none;
-    padding: 30px;
+    padding: 40px;
     height:40px;
     display: flex;
     justify-content:space-evenly;
     align-items:center;
+    
+    
 }
 
 li
@@ -47,33 +56,38 @@ li
 nav ul li
 {
     background-color: rgb(87, 101, 175);
-    border: 5px solid rgb(182, 182, 172);
+    border: 7px solid rgb(253, 253, 147);
     margin: 10px;
-    padding: 5px 20px;
+    padding: 10px 25px;
     color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 9px;
     cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+    border-style: ridge;
+    
+    
 }
 /* Styl elementu po nakierowaniou myszką */
 
 nav ul li:hover
 {
-background-color: rgb(175, 22, 30);
-border-color: rgb(81, 81, 209);
+background-color: rgb(0, 4, 255);
+border-color: rgb(16, 16, 39);
 color:rgb(0, 0, 0);
 transition: 2s;
 }
 /* Styl po naciśnieciu */
 nav ul li:active
 {
-background-color: rgb(60, 211, 0);
-border-color: rgb(2, 125, 182);
-color:rgb(122, 102, 102);
+background-color: rgb(0, 0, 0);
+border-color: rgb(0, 174, 255);
+color:rgb(255, 255, 255);
 transition: none;
 }
 
 .cookies{
-border: 5px solid;
+border: 2px solid;
 position:fixed;
 bottom: 0;
 width: 100%;
