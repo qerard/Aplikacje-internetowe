@@ -104,4 +104,10 @@ button
     padding: 5px;
 }
 
+main header img
+{
+    border: 5px solid red;
+    margin-left: 690px;
+    margin-top: 20px;
+}
 
