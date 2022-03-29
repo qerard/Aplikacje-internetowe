@@ -1,3 +1,5 @@
+/*Ciało strony (matka)*/
+
 body
 {
     background-color: rgb(135, 147, 202);
@@ -5,35 +7,37 @@ body
     font-family: 'Playfair Display', serif;}
     
 
-    *{
-        box-sizing: border-box;
-    }
+*
+{
+    box-sizing: border-box;
+}
+
+/*Wizytówka*/
 
 body > header
 {
     border:10px solid rgba(80, 107, 180, 0.699);
-
     text-align: center;
     background-color: rgba(135, 147, 202, 0.699);
     border-style: ridge;
-    background-image: url("obraz.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
 }
+
+/*Tekst Wizytówka*/
 
 h1
 {
     color:rgb(0, 0, 0);
 }
 
-nav{
-    position:sticky;
+/*Menu*/
+
+nav
+{
+    position: sticky;
     top:0;
-    
-    
 }
+
+/*Menu środek*/
 
 nav ul
 {
@@ -47,15 +51,17 @@ nav ul
     display: flex;
     justify-content:space-evenly;
     align-items:center;
-    
-    
 }
+
+/*Przycisk wewnątrz*/
 
 li
 {
     margin: 5px;
-   
 }
+
+/*Przyciski*/
+
 nav ul li
 {
     background-color: rgb(87, 101, 175);
@@ -68,13 +74,10 @@ nav ul li
     font-size: larger;
     font-weight: bolder;
     border-style: ridge;
-
-    
-    
-    
-    
 }
+
 /* Styl elementu po nakierowaniou myszką */
+
 nav ul li:hover
 {
     background-color: rgb(0, 4, 255);
@@ -82,14 +85,18 @@ nav ul li:hover
     color:rgb(0, 0, 0);
     transition: 2s;
 }
+
 /* Styl po naciśnieciu */
+
 nav ul li:active
 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(153, 7, 7);
     border-color: rgb(0, 174, 255);
     color:rgb(255, 255, 255);
     transition: none;
 }
+
+/*Ciastko strony */
 
 .cookies{
     border: 2px solid;
@@ -101,9 +108,10 @@ nav ul li:active
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
-
 }
+
 /*Przycisk cioastko*/
+
 button
 {
     padding: 5px;
@@ -113,15 +121,18 @@ button
 main 
 {
     padding: 2em;
-    
 }
 
+/*Wyśrodkowanie zdjęcia */
 
 .imgField
 {
    
     text-align: center;
 }
+
+/*Tekst obok zdjęcia*/
+
 .headerText
 {
     
@@ -129,31 +140,41 @@ main
     padding-bottom: 1em;
     margin: 10px;
 }
+
+/*Zdjęcie*/
+
 img{
     max-width: 100%;
     border-radius: 10%;
     padding: 10px;
 }
 
-@media (min-width:768px){
+/* Ustawienie obok siebie zdjęcie z tekstem oraz tabeli */
 
-    main > header ,
-    main > article{
+@media (min-width:768px)
+{
+main > header ,
+main > article
+{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-
+}
 }
 
 /*Main articcle*/
 
 .tableField
 {
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
+ 
+/*Przycisk usuniecie lini po dodaniu kotwicy*/
 
+nav ul li a 
+{
+    color: black;
+    text-decoration: none;
+}

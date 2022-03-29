@@ -15,22 +15,26 @@
     </head>
 
     <body>
+       <div class="root"></div>
         <header>
             <h1>Gerhard Beier - wizytówka</h1>
         </header>
         <nav>
            <!-- 1.Lista -->
             <ul>
-               <li>Home</li>
-               <li>Projekty</li>
-               <li>Kontakt</li>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#projekt">Projekty</a></li>
+               <li>
+                 <a href="#contact">Kontakt</a>
+                   
+                </li>
            </ul>  
         </nav>
         <main>
-            <header>
+            <header id="home" >
                 <!--Wstawienie zdjęcia-->
                 <div class="imgField">
-                <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Gerhard_Beier">
+                <img  src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Gerhard_Beier">
                 </div>
                 
                  
@@ -40,7 +44,7 @@
                 </h2>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt necessitatibus nemo autem blanditiis ullam pariatur distinctio repellat ab fugiat! Incidunt id eius aperiam? Veritatis placeat quidem rem expedita quo.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor architecto, odio incidunt aliquid magni ipsum ipsam unde quos quo. Animi minus alias dolorum corrupti quaerat est sint maiores a rem.
                 </p>
             </div>
             </header>
@@ -82,7 +86,8 @@
                 <tr>
                     <td>2.</td>
                     <td>CSS</td>
-                    <td colspan="2">Nie dotyczy</td>
+                    <td colspan="2">
+                    </td>
                     
                 </tr>
                 
@@ -92,8 +97,8 @@
         </article>
             <!--Nagłówki-->
             <section>
-              <Header>
-                <h2>
+              <Header >
+                <h2 id="projekt">
                 Projekty
                </h2>
             </Header>
@@ -102,7 +107,7 @@
         </main>
         <!--Formularz kontaktowy-->
 
-        <article>
+        <article id="contact">
             <header>
                 <h2>Kontakt</h2>
             </header>
