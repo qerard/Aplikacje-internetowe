@@ -1,135 +1,125 @@
 <!DOCTYPE html>
+    
     <html lang="pl">
-    <head>
+    
+        <head>
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aplikacje internetowe</title>
+            <title>Aplikacje internetowe</title>
         
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
     
-    </head>
+        </head>
 
-    <body>
-       <div class="root"></div>
-        <header>
-            <h1>Gerhard Beier - wizytówka</h1>
-        </header>
-        <nav>
-           <!-- 1.Lista -->
+        <body>
+            
+            <div class="root"></div>
+        
+            <header>
+                <h1>Gerhard Beier - wizytówka</h1>
+            </header>
+        
+            <nav>
+        
             <ul>
                <li><a href="#home">Home</a></li>
                <li><a href="#projekt">Projekty</a></li>
-               <li>
-                 <a href="#contact">Kontakt</a>
-                   
-                </li>
+               <li><a href="#contact">Kontakt</a></li>
            </ul>  
-        </nav>
-        <main>
-            <header id="home" >
-                <!--Wstawienie zdjęcia-->
-                <div class="imgField">
-                <img  src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Gerhard_Beier">
-                </div>
+            
+            </nav>
+        
+            <main>
+            
+                <header id="home" >
+                    <div class="imgField">
+                        <img  src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Gerhard_Beier">
+                    </div>
                 
                  
-                <div class="headerText">
-                <h2>
-                    O mnie
-                </h2>
-
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor architecto, odio incidunt aliquid magni ipsum ipsam unde quos quo. Animi minus alias dolorum corrupti quaerat est sint maiores a rem.
-                </p>
-            </div>
-            </header>
-            
-        <article>
-                
-                <header class="headerText">
-                   <h2>
-                    Technologie
-                   </h2> 
-                   <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aspernatur neque soluta fugiat eveniet architecto quaerat exercitationem magnam eum? Rerum, obcaecati! Illum fuga doloremque delectus nisi sint ratione, perferendis repellendus!
-                   </p>
+                    <div class="headerText">
+                        <h2>O mnie</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor architecto, odio incidunt aliquid magni ipsum ipsam unde quos quo. Animi minus alias dolorum corrupti quaerat est sint maiores a rem.</p>
+                    </div>
                 </header>
-           
-            <!--Tabelka-->
-            <div class="tableField">
-            <table border="5" style="margin:5vh 0">
-                
-                <tr>
-                    <th>lp.</th>
-                    <th>Technologia</th>
-                    <th>Moduł</th>
-                    <th>Ocena</th>
-                </tr>
-                
-                <tr>
-                    <td rowspan="2">1.</td>
-                    <td rowspan="2">HTML</td>
-                    <td>Semantryka</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                
-                <tr>
-                    <td>Tabela</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                
-                <tr>
-                    <td>2.</td>
-                    <td>CSS</td>
-                    <td colspan="2">
-                    </td>
-                    
-                </tr>
-                
-            </table>
-            </div>
             
-        </article>
-            <!--Nagłówki-->
-            <section>
-              <Header >
-                <h2 id="projekt">
-                Projekty
-               </h2>
-            </Header>
-            </section>
+                <article>
+                
+                    <header class="headerText">
+                        <h2>Technologie</h2> 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aspernatur neque soluta fugiat eveniet architecto quaerat exercitationem magnam eum? Rerum, obcaecati! Illum fuga doloremque delectus nisi sint ratione, perferendis repellendus!</p>
+                    </header>
+           
+                    <div class="tableField">
+                    
+                    <table border="5" style="margin:5vh 0">
+                
+                        <tr>
+                            <th>lp.</th>
+                            <th>Technologia</th>
+                            <th>Moduł</th>
+                            <th>Ocena</th>
+                        </tr>
+                
+                        <tr>
+                            <td rowspan="2">1.</td>
+                            <td rowspan="2">HTML</td>
+                            <td>Semantryka</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                
+                        <tr>
+                            <td>Tabela</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                        </tr>
+                
+                        <tr>
+                            <td>2.</td>
+                            <td>CSS</td>
+                            <td colspan="2">
+                            </td>
+                         </tr>
+                
+                    </table>
+                    </div>
+                
+                </article>
+            
+                
+                <section>
+                    <Header>
+                        <h2 id="projekt">Projekty</h2>
+                    </Header>
+                </section>
         
-        </main>
-        <!--Formularz kontaktowy-->
+            </main>
+        
+            <article id="contact">
+                <header>
+                    <h2>Kontakt</h2>
+                </header>
 
-        <article id="contact">
-            <header>
-                <h2>Kontakt</h2>
-            </header>
-        <form action="/index.html">
-            <input type="email" name="" id="" placeholder="e-mail">
-            <input type="text" name="" id="" placeholder="title">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="button" value="Wyślij">
-        </form>
+                <form action="/index.html">
+                    <input type="email" name="" id="" placeholder="e-mail">
+                    <input type="text" name="" id="" placeholder="title">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="button" value="Wyślij">
+                </form>
         
-        </article>
+            </article>
         
         
-        <footer>
-            Stopka strony
-        </footer>
+            <footer>Stopka strony</footer>
 
-        <div class="cookies">
-          <p>
-              <strong>Ta strona nie używa plików cookies</strong></p>  
-          <button>OK</button>
-        </div>
+            <div class="cookies">
+                <p><strong>Ta strona nie używa plików cookies</strong></p>  
+                <button>OK</button>
+            </div>
 
-    </body>
+        </body>
 </html>
