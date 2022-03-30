@@ -235,6 +235,7 @@ footer
 thead
 {
     background-color: rgb(108, 108, 112);
+    border: rgb(11, 0, 165) ;
 }
 
 #xd
@@ -260,7 +261,7 @@ table
 {
     width: 100%;
     border-collapse: collapse;
-    border: 5px solid rgb(106, 138, 184);
+    border: 5px solid rgb(11, 0, 165);
     text-align: center;
 }
 
