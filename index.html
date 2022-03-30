@@ -18,7 +18,7 @@
 
         <body>
             
-            <div class="root"></div>
+            
         
             <header>
                 <h1>Gerhard Beier - wizytówka</h1>
@@ -57,15 +57,18 @@
            
                     <div class="tableField">
                     
-                    <table border="5" style="margin:5vh 0">
-                
+                    <table border="3">
+                        
+                        <thead>
                         <tr>
                             <th>lp.</th>
                             <th>Technologia</th>
                             <th>Moduł</th>
                             <th>Ocena</th>
+                    
                         </tr>
-                
+                        </thead>
+                        <tbody>
                         <tr>
                             <td rowspan="2">1.</td>
                             <td rowspan="2">HTML</td>
@@ -79,15 +82,21 @@
                         </tr>
                 
                         <tr>
-                            <td>2.</td>
-                            <td>CSS</td>
+                            <td rowspan="2">2.</td>
+                            <td rowspan="2">CSS</td>
                             <td colspan="2">
+                                <a href="./pozycje.html" target="_blank">Pozycje</a>
                             </td>
                          </tr>
-                
+                         <tr>
+                             <td colspan="2">
+                                <a href="./jednostki.html" target="_blank">Jednostki</a>
+                             </td>
+                         </tr>
+                        </tbody>
                     </table>
                     </div>
-                
+                    
                 </article>
             
                 
@@ -102,24 +111,25 @@
             <article id="contact">
                 <header>
                     <h2>Kontakt</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae itaque maiores aperiam tempore, voluptatem a vel ex alias odit? Magni rem, dolore beatae soluta consequatur debitis tempore vero? Labore, nemo?</p>
                 </header>
 
                 <form action="/index.html">
-                    <input type="email" name="" id="" placeholder="e-mail">
-                    <input type="text" name="" id="" placeholder="title">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="button" value="Wyślij">
+                    <input type="email" name="" id="" placeholder="E-mail">
+                    <input type="text" name="" id="" placeholder="Tytuł">
+                    <textarea name="" id="" cols="30" rows="10"placeholder="Message"></textarea>
+                    <button type="sumbit">Wyślij</button>
                 </form>
         
             </article>
         
         
-            <footer>Stopka strony</footer>
+            <footer><p>&copy; Gerhard 2022</p></footer>
 
-            <div class="cookies">
+           <!-- <div class="cookies">
                 <p><strong>Ta strona nie używa plików cookies</strong></p>  
                 <button>OK</button>
-            </div>
+            </div>-->
 
         </body>
 </html>
